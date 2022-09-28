@@ -1,38 +1,44 @@
 [
     {
         "id": 0,
-        "image": "https://www.findmyrunningshoes.com/wp-content/uploads/2020/12/Pros-And-Cons-Of-Running-On-A-Treadmill-vs-Outside.jpg",
+        "img": "https://www.findmyrunningshoes.com/wp-content/uploads/2020/12/Pros-And-Cons-Of-Running-On-A-Treadmill-vs-Outside.jpg",
         "name": "Running",
-        "about": "Fugiat aliquip anim veniam officia."
+        "about": "Fugiat aliquip anim veniam officia.",
+        "time": "30 sec"
     },
     {
         "id": 1,
-        "image": "https://freaktofit.com/wp-content/uploads/2021/11/flex-board-push-up-1.jpg",
+        "img": "https://freaktofit.com/wp-content/uploads/2021/11/flex-board-push-up-1.jpg",
         "name": "Push Up",
-        "about": "Pariatur nulla enim pariatur aliquip anim laborum irure officia fugiat incididunt."
+        "about": "Pariatur nulla enim pariatur aliquip anim laborum irure officia fugiat incididunt.",
+        "time": "30 sec"
     },
     {
         "id": 2,
-        "image": "https://media.gq-magazine.co.uk/photos/5f0efb4f8f48ab377f4628f5/master/pass/20200715-pull.jpg",
+        "img": "https://media.gq-magazine.co.uk/photos/5f0efb4f8f48ab377f4628f5/master/pass/20200715-pull.jpg",
         "name": "Pull Up",
-        "about": "Officia proident qui labore ad."
+        "about": "Officia proident qui labore ad.",
+        "time": "30 sec"
     },
     {
         "id": 3,
-        "image": "https://breakingmuscle.com/wp-content/uploads/2022/04/shutterstock_609082940-1.jpg",
+        "img": "https://breakingmuscle.com/wp-content/uploads/2022/04/shutterstock_609082940-1.jpg",
         "name": "Crunch",
-        "about": "Eu tempor commodo ea consequat excepteur eiusmod consectetur."
+        "about": "Eu tempor commodo ea consequat excepteur eiusmod consectetur.",
+        "time": "30 sec"
     },
     {
         "id": 4,
-        "image": "https://cdn.lifehack.org/wp-content/uploads/2014/07/deadlift-benefits.jpeg",
+        "img": "https://cdn.lifehack.org/wp-content/uploads/2014/07/deadlift-benefits.jpeg",
         "name": "Deadlift",
-        "about": "Labore aute cillum dolor magna officia et occaecat id aute culpa adipisicing."
+        "about": "Labore aute cillum dolor magna officia et occaecat id aute culpa adipisicing.",
+        "time": "30 sec"
     },
     {
         "id": 5,
-        "image": "https://previews.123rf.com/images/georgerudy/georgerudy1705/georgerudy170500044/77193792-handsome-muscular-man-is-doing-battle-rope-exercise-while-working-out-in-gym.jpg",
+        "img": "https://previews.123rf.com/images/georgerudy/georgerudy1705/georgerudy170500044/77193792-handsome-muscular-man-is-doing-battle-rope-exercise-while-working-out-in-gym.jpg",
         "name": "Battle Rope",
-        "about": "Ea nostrud velit et elit magna Lorem culpa."
+        "about": "Ea nostrud velit et elit magna Lorem culpa.",
+        "time": "30 sec"
     }
 ]

@@ -1,8 +1,16 @@
 .heading {
-    padding: 5vh 8vh;
+    padding: 5vh 25vh;
+    display: block;
 }
 
 .workout-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+.activity-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10vh;
+    margin: 0 8vh;
 }
