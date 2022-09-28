@@ -1,0 +1,8 @@
+.heading {
+    padding: 5vh 8vh;
+}
+
+.workout-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
