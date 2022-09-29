@@ -23,7 +23,7 @@ const Blog = () => {
                 </div>
                 <div>
                     <h3>What are uses of useEffect except loading data from API ?</h3>
-                    <p></p>
+                    <p>Validating an input while it's receiving characters is a great application for useEffect. useEffect can filter an array "on the fly" by typing letters into an input element. It can be used to trigger animation on new array value. useEffect can be used to using unpredictable timing functions like setTimeout or setInterval</p>
                 </div>
             </article>
         </div>
