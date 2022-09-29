@@ -13,7 +13,13 @@ const Blog = () => {
                 </div>
                 <div>
                     <h3>What is the difference between Props and State ?</h3>
-                    <p></p>
+                    <p>1.	Props are read-only but State changes can be asynchronous. <br />
+                        2.	Props are immutable but State is mutable. <br />
+                        3.	Props allow you to pass data from one component to other components as an argument.	State holds information about the components. <br />
+                        4.	Props can be accessed by the child component but State cannot be accessed by it. <br />
+                        5.	Props are used to communicate between components on the other hand States can be used for rendering dynamic changes with the component. <br />
+                        6.	Props make components reusable which State cannot. <br />
+                        7.	Props are external and controlled by whatever renders the component  whether The State is internal and controlled by the React Component itself.</p>
                 </div>
                 <div>
                     <h3>What are uses of useEffect except loading data from API ?</h3>
