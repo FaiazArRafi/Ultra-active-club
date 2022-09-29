@@ -34,7 +34,7 @@ const Details = (props) => {
                     <small>Age</small>
                 </div>
             </div>
-            <p>{info.length}</p>
+
             <h2>Take a Break</h2>
             <div className="add-break">
                 <button onClick={handleBreakTime} value='1' className="break-time">10s</button>
@@ -53,6 +53,7 @@ const Details = (props) => {
                 <h4>Break Time :</h4>
                 <h4>100 seconds</h4>
             </div>
+            <button className='btn-completed'><b>Workout finished !!!</b></button>
         </div>
     );
 };

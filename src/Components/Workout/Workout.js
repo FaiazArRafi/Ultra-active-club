@@ -38,7 +38,11 @@ const Workout = () => {
             </div>
 
             <div className="info-container">
-                <h3>Faiaz Ar-Rafi</h3>
+                <div className='personal-data'>
+                    <img src="https://i.pinimg.com/736x/07/ba/a9/07baa97b715c57f5706974ab026f9d59.jpg" alt="" />
+                    <p><b>Faiaz Ar-Rafi</b></p>
+                </div>
+                <p><small>Chattagram, Bangladesh</small></p>
                 <Details info={info}></Details>
 
             </div>

@@ -30,3 +30,12 @@
     margin: 1vh 1vh;
     background-color: rgba(248, 108, 108, 0.47);
 }
+
+.btn-completed {
+    width: 100%;
+    border-radius: 2vh;
+    border: none;
+    background-color: coral;
+    padding: 2vh;
+    margin-top: 2vh;
+}
