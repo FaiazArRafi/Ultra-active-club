@@ -12,7 +12,7 @@ const Activities = (props) => {
                 <p>Time required: {time}</p>
             </div>
             <button onClick={() => handleAddToList(activity)} className='btn-list'>
-                <h2 >Add To List</h2></button>
+                <p><b>Add To List</b></p></button>
         </div>
     );
 };

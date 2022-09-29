@@ -1,25 +1,27 @@
 .activity {
-    width: 100vh;
-    height: 160vh;
-    border: 2px solid grey;
-    border-radius: 5vh;
+    width: 40vh;
+    height: 70vh;
+    border: 2px solid rgba(128, 128, 128, 0.672);
+    border-radius: 2vh;
     position: relative;
+    background-color: bisque;
 }
 
 .activity img {
-    width: 100vh;
-    height: 100vh;
-    border-radius: 5vh;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 2vh;
 }
 
 .activity-info {
-    padding: 2vh 5vh;
+    padding: 2vh;
 }
 
 .btn-list {
     width: 100%;
     position: absolute;
     bottom: 0;
-    border-radius: 5vh;
+    border-radius: 2vh;
     border: none;
+    background-color: coral;
 }
