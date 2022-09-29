@@ -9,10 +9,10 @@ const Activities = (props) => {
             <img src={img} alt="" />
             <div className="activity-info">
                 <h2>{name}</h2>
-                <p>Time required: {time}</p>
+                <p>Time required: <b>{time}</b></p>
             </div>
             <button onClick={() => handleAddToList(activity)} className='btn-list'>
-                <p><b>Add To List</b></p></button>
+                <h3>Add To List</h3></button>
         </div>
     );
 };

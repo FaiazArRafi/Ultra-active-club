@@ -5,6 +5,7 @@ import Activities from '../Activities/Activities';
 import './Workout.css'
 import Details from '../Details/Details';
 
+
 const Workout = () => {
     const [activities, setActivities] = useState([])
     const [info, setInfo] = useState([])
@@ -18,6 +19,7 @@ const Workout = () => {
     const handleAddToList = (activity) => {
         const newInfo = [...info, activity]
         setInfo(newInfo)
+
     }
 
     return (

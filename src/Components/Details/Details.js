@@ -1,21 +1,36 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Details.css'
 
 const Details = (props) => {
     const { info } = props
-    // console.log(props)
-    // const [info] = props
-    const [brTime, setbrTime] = useState([])
-    console.log(brTime)
 
     let total = 0;
     for (const activity of info) {
         total = total + parseFloat(activity.time);
     }
 
-    const handleBreakTime = () => {
-        const btime =
-            localStorage.setItem('Break time',)
+
+    const handleBreakTimeTen = () => {
+        localStorage.setItem('break-time', JSON.stringify('10'));
+        return 10
+    }
+    const handleBreakTimeTwen = () => {
+        localStorage.setItem('break-time', JSON.stringify('20'));
+    }
+    const handleBreakTimeThir = () => {
+        localStorage.setItem('break-time', JSON.stringify('30'));
+    }
+    const handleBreakTimeFour = () => {
+        localStorage.setItem('break-time', JSON.stringify('40'));
+    }
+    const handleBreakTimeFifty = () => {
+        localStorage.setItem('break-time', JSON.stringify('50'));
+    }
+
+    let breakTime;
+    const storedData = localStorage.getItem('break-time');
+    if (storedData) {
+        breakTime = JSON.parse(storedData);
     }
 
     return (
@@ -37,11 +52,11 @@ const Details = (props) => {
 
             <h2>Take a Break</h2>
             <div className="add-break">
-                <button onClick={handleBreakTime} value='1' className="break-time">10s</button>
-                <button onClick={handleBreakTime} className="break-time">20s</button>
-                <button onClick={handleBreakTime} className="break-time">30s</button>
-                <button onClick={handleBreakTime} className="break-time">40s</button>
-                <button onClick={handleBreakTime} className="break-time">50s</button>
+                <button onClick={handleBreakTimeTen} className="break-time">10s</button>
+                <button onClick={handleBreakTimeTwen} className="break-time">20s</button>
+                <button onClick={handleBreakTimeThir} className="break-time">30s</button>
+                <button onClick={handleBreakTimeFour} className="break-time">40s</button>
+                <button onClick={handleBreakTimeFifty} className="break-time">50s</button>
             </div>
 
             <h2>Workout Details</h2>
@@ -51,9 +66,10 @@ const Details = (props) => {
             </div>
             <div className='workout-time'>
                 <h4>Break Time :</h4>
-                <h4>100 seconds</h4>
+                <h4>{breakTime}  seconds</h4>
             </div>
             <button className='btn-completed'><b>Workout finished !!!</b></button>
+
         </div>
     );
 };

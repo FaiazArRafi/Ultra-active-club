@@ -24,4 +24,10 @@
     border-radius: 2vh;
     border: none;
     background-color: coral;
+    /* padding: 2vh; */
+}
+
+.btn-list:hover {
+    background-color: rgb(109, 208, 23);
+
 }
