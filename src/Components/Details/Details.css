@@ -1,0 +1,32 @@
+.info-container {
+    background-color: peachpuff;
+    padding-left: 1vh;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-break {
+    display: flex;
+    justify-content: space-around;
+}
+
+.break-time {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 1.5vh;
+}
+
+.add-break :hover {
+    background-color: blue;
+    color: white;
+}
+
+.workout-time {
+    display: flex;
+    justify-content: space-around;
+    margin: 1vh 1vh;
+    background-color: rgba(248, 108, 108, 0.47);
+}

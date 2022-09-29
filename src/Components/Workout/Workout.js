@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 import Activities from '../Activities/Activities';
 import './Workout.css'
+import Details from '../Details/Details';
 
 const Workout = () => {
     const [activities, setActivities] = useState([])
@@ -38,28 +39,8 @@ const Workout = () => {
 
             <div className="info-container">
                 <h3>Faiaz Ar-Rafi</h3>
-                <div className='personal-info'>
-                    <div>
-                        <h2 >63 <small>kg</small></h2>
-                        <small>Weight</small>
-                    </div>
-                    <div >
-                        <h2>5.7<small>ft</small></h2>
-                        <small>Height</small>
-                    </div>
-                    <div >
-                        <h2 >26 <small>yrs</small></h2>
-                        <small>Age</small>
-                    </div>
-                </div>
-                <p>{info.length}</p>
-                <div className="add-break">
-                    <p className="break-time">10s</p>
-                    <p className="break-time">20s</p>
-                    <p className="break-time">30s</p>
-                    <p className="break-time">40s</p>
-                    <p className="break-time">50s</p>
-                </div>
+                <Details info={info}></Details>
+
             </div>
         </div>
     );
