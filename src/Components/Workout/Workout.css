@@ -14,3 +14,58 @@
     gap: 10vh;
     margin: 0 8vh;
 }
+
+/* desktop view */
+@media screen and (min-width:991px) and (max-width:1199px) {
+    .workout-container {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+
+    .activity-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10vh;
+        margin: 0 8vh;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .workout-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .activity-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10vh;
+        margin: 0 8vh;
+    }
+
+}
+
+
+/* mobile view */
+@media screen and (max-width:767px) {
+    .workout-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* grid-template-columns: 4fr 1fr; */
+    }
+
+    .activity-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10vh;
+        margin: 0 8vh;
+    }
+
+    .info-container {
+        margin-left: 10vh;
+        margin-top: 5vh;
+    }
+
+
+}

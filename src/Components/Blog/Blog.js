@@ -4,13 +4,14 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div>
-            <h1>Have a Read</h1>
-            <article className='blog-design'>
 
+            <article className='blog-design'>
+                <h1>Blog</h1>
                 <div>
                     <h3>How does React work ?</h3>
                     <p>React uses a declarative paradigm that makes it easier to reason about the  application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when the data changes. The declarative view makes the code more predictable and easier to debug.</p>
                 </div>
+                <br />
                 <div>
                     <h3>What is the difference between Props and State ?</h3>
                     <p>1.	Props are read-only but State changes can be asynchronous. <br />
@@ -21,9 +22,10 @@ const Blog = () => {
                         6.	Props make components reusable which State cannot. <br />
                         7.	Props are external and controlled by whatever renders the component  whether The State is internal and controlled by the React Component itself.</p>
                 </div>
+                <br />
                 <div>
                     <h3>What are uses of useEffect except loading data from API ?</h3>
-                    <p>Validating an input while it's receiving characters is a great application for useEffect. useEffect can filter an array "on the fly" by typing letters into an input element. It can be used to trigger animation on new array value. useEffect can be used to using unpredictable timing functions like setTimeout or setInterval</p>
+                    <p>Validating an input while it's receiving characters is a great application for useEffect. useEffect can filter an array "on the fly" by typing letters into an input element. It can be used to trigger animation on new array value. useEffect is a great application to use unpredictable timing functions like setTimeout or setInterval.</p>
                 </div>
             </article>
         </div>
